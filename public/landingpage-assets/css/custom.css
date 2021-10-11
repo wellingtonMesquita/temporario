@@ -1,0 +1,52 @@
+.navigation {
+    background-color: black;
+}
+
+.navbar .nav-item .nav-link {
+    color: white !important;
+}
+
+.my-background-color {
+    background-color: #2f0522 !important;
+}
+
+.text-dark {
+    color: white !important;
+}
+
+.yellow {
+    color: yellow !important;
+}
+
+a:hover,
+a.text-dark:hover {
+    color: #990033 !important;
+}
+
+.whats-number {
+    color: #05e605;
+}
+
+.nome-card-perfil {
+    color: #e1678b !important;
+}
+
+.card-publicacoes {
+    border: solid;
+    border-color: #540b30;
+    border-width: 1px;
+    border-radius: 10px;
+    background-color: #28041d;
+}
+
+.editor-de-texto {
+    background-color: #440d29;
+    border: solid;
+    border-color: #540b30;
+    border-width: 2.5px;
+    border-radius: 10px;
+}
+
+.editor-de-texto img {
+    width: 100% !important;
+}

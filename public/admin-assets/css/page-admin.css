@@ -1,0 +1,144 @@
+.table th img, .table td img {
+    width: 75px;
+    height: 75px;
+    border-radius: initial;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    color: #007bff !important;
+}
+
+.dropdown .dropdown-menu .dropdown-item:hover {
+    background-color: #f8f9fa;
+    color: #0037ff;
+}
+
+.card .card-title {
+    color: #343a40;
+    margin-bottom: 0.75rem;
+    text-transform: capitalize;
+    font-family: "ubuntu-medium", sans-serif;
+    font-size: 1.425rem;
+    text-align: center;
+}
+
+.btn {
+    margin-bottom: 45px;
+}
+
+#sidebar {
+    background: currentColor;
+}
+
+#style-navbar {
+    background: currentColor;
+}
+
+.navbar {
+    background-color: currentColor;
+    color: currentColor !important;
+}
+
+.text-black {
+    color: #fff;
+}
+
+.sidebar .nav .nav-item .nav-link {
+    color: white;
+}
+
+.mdi-format-list-bulleted:before {
+    content: "\F279";
+    color: white;
+}
+
+.mdi-home:before {
+    color: white;
+}
+
+.navbar-nav .nav-item.dropdown .dropdown-toggle:after {
+    color: white !important;
+    font-size: 1rem;
+}
+
+.noHover {
+    pointer-events: none !important;
+}
+
+.footer {
+    background: black;
+    margin-top: -1px;
+}
+
+.mdi-menu:before {
+    content: "\F35C";
+    color: white;
+}
+
+.table-inverse {
+    color: #ffffff;
+}
+
+.table {
+    color: black;
+}
+
+.card {
+    background: currentColor;
+}
+
+.content-wrapper {
+    background: #e4e4e4;
+}
+
+.size-input {
+    width: 400px;
+    height: 45px;
+}
+
+.size-input-upload {
+    height: 42px;
+}
+
+.note-toolbar {
+    background: white;
+    border: solid;
+}
+
+.margin-title{
+    color: white !important;
+    margin-bottom: 75px !important;
+}
+.note-editor {
+    margin-bottom: 85px;
+}
+.footer-padding{
+    margin-left: 560px;
+}
+
+/*---  Responsivo ---*/
+@media (max-width: 575.98px) {
+    .size-input {
+        width: 100% !important;
+    }
+    .table-scroll{
+        max-width: 100%;
+        height: auto;
+        overflow: scroll;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px){
+    .table-scroll{
+        max-width: 100%;
+        height: auto;
+        overflow: scroll;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px){
+    .table-scroll{
+        max-width: 100%;
+        height: auto;
+        overflow: scroll;
+    }
+}
